@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: ghostwhite;
+}
+
+.header, .footer{
+    width: 100%;
+}
+
+@media screen and (min-device-width: 965px)  {
+    #logo{
+        width: 10%;
+        height: 10%;
+        float:left;
+        margin: 15px;
+    }
+    #sitename{
+        font-size: 2.5em;
+        font-weight: 450;
+    }
+    #motto{
+        font-size: 1.5em;
+    }
+
+    .card_section{
+        float:left;
+        width:30%; 
+    }
+
+    #image{
+        width: 70%;
+        height: 350px;
+    }
+    #nav{
+        margin: 0px;
+        background: darkslategray;
+        padding: 10px 0px ;
+    }
+
+    a{
+        font-size: 1.15em;
+        color: papayawhip;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+
+}
+
